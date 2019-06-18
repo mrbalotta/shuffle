@@ -1,65 +1,65 @@
-#Exercício Mobile - Shuffle Songs
+# ExercÃ­cio Mobile - Shuffle Songs
 
-Você decidiu lançar um novo app de músicas que será um sucesso! O app consiste em mostrar músicas populares de alguns dos artistas mais tocados no momento.
+VocÃª decidiu lanÃ§ar um novo app de mÃºsicas que serÃ¡ um sucesso! O app consiste em mostrar mÃºsicas populares de alguns dos artistas mais tocados no momento.
 
-Para isso, o primeiro passo é listar músicas de uma API aberta com o seguinte endpoint:
+Para isso, o primeiro passo Ã© listar mÃºsicas de uma API aberta com o seguinte endpoint:
 
-https://us-central1-tw-exercicio-mobile.cloudfunctions.net/lookup?id=<id>,<id>,<id>&limit=5 (aonde <id> é o ID do artista)
+https://us-central1-tw-exercicio-mobile.cloudfunctions.net/lookup?id=<id>,<id>,<id>&limit=5 (aonde <id> Ã© o ID do artista)
 
-E, claro, você escolheu alguns artistas para sua lista:
+E, claro, vocÃª escolheu alguns artistas para sua lista:
 
-##Artista / ID:
+## Artista / ID:
 
 John Dollar / 909253
 
 Charlie and the Chewie Humans / 1171421960
 
-Bloco TótiOQue / 358714030
+Bloco TÃ³tiOQue / 358714030
 
 MC Arianne / 1419227
 
-Decimais MC’s / 264111789
+Decimais MCâ€™s / 264111789
 
-Além disso, todo app de sucesso possui um incrível algoritmo de shuffle, que consiste em embaralhar a lista de músicas respeitando algumas regras:
+AlÃ©m disso, todo app de sucesso possui um incrÃ­vel algoritmo de shuffle, que consiste em embaralhar a lista de mÃºsicas respeitando algumas regras:
 
-O algoritmo deve ser randômico e gerar listas diferentes a cada execução;
-Músicas do mesmo artista não devem aparecer juntas;
+O algoritmo deve ser randÃ´mico e gerar listas diferentes a cada execuÃ§Ã£o;
+MÃºsicas do mesmo artista nÃ£o devem aparecer juntas;
  
 
-#Exemplo:
+# Exemplo:
 
-##Lista original:
+## Lista original:
 
 John Dollar - Broken Vibrations
 John Dollar - Journey of Eternity
 MC Arianne - Boom Boom
-MC Arianne - Sorriso Fantástico
-Decimais MC’s - Rua da Perfeição
+MC Arianne - Sorriso FantÃ¡stico
+Decimais MCâ€™s - Rua da PerfeiÃ§Ã£o
 
-##Lista embaralhada:
+## Lista embaralhada:
 
 MC Arianne - Boom Boom
 John Dollar - Broken Vibrations
-Decimais MC’s - Rua da Perfeição
+Decimais MCâ€™s - Rua da PerfeiÃ§Ã£o
 John Dollar - Journey of Eternity
-MC Arianne - Sorriso Fantástico
+MC Arianne - Sorriso FantÃ¡stico
 
 
-Por fim, seu aplicativo terá uma identidade visual única! Você pode encontrar as telas e assets para iOS e Android aqui.
-Use bibliotecas de terceiro apenas quando estritamente necessário. Por favor, não utilize bibliotecas como: Alamofire, Moya, Kingfisher, RxSwift, etc.
-Os seguintes pontos serão avaliados na sua aplicação:
+Por fim, seu aplicativo terÃ¡ uma identidade visual Ãºnica! VocÃª pode encontrar as telas e assets para iOS e Android aqui.
+Use bibliotecas de terceiro apenas quando estritamente necessÃ¡rio. Por favor, nÃ£o utilize bibliotecas como: Alamofire, Moya, Kingfisher, RxSwift, etc.
+Os seguintes pontos serÃ£o avaliados na sua aplicaÃ§Ã£o:
 
 Arquitetura
-Qualidade do código
+Qualidade do cÃ³digo
 Interface
-Testes (lembre-se de escrever ao menos alguns testes unitários)
-Sua atenção a detalhes
+Testes (lembre-se de escrever ao menos alguns testes unitÃ¡rios)
+Sua atenÃ§Ã£o a detalhes
  
 
-Para a sua solução, você deve usar: Swift, Java, Kotlin ou React Native
+Para a sua soluÃ§Ã£o, vocÃª deve usar: Swift, Java, Kotlin ou React Native
 
 
-Até breve!
+AtÃ© breve!
 
 Time de Recrutamento
 
