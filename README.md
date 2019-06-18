@@ -29,20 +29,23 @@ Músicas do mesmo artista não devem aparecer juntas;
 # Exemplo:
 
 ## Lista original:
-
-John Dollar - Broken Vibrations
-John Dollar - Journey of Eternity
-MC Arianne - Boom Boom
-MC Arianne - Sorriso Fantástico
-Decimais MC’s - Rua da Perfeição
+|Artist|Music|
+|------|-----|
+|John Dollar|Broken Vibrations|
+|John Dollar|Journey of Eternity|
+|MC Arianne|Boom Boom|
+|MC Arianne|Sorriso Fantástico|
+|Decimais MC’s|Rua da Perfeição|
 
 ## Lista embaralhada:
-
-MC Arianne - Boom Boom
-John Dollar - Broken Vibrations
-Decimais MC’s - Rua da Perfeição
-John Dollar - Journey of Eternity
-MC Arianne - Sorriso Fantástico
+|Artist|Music|
+|------|-----|
+|MC Arianne|Boom Boom|
+|John Dollar|Broken Vibrations|
+|John Dollar|Broken Vibrations|
+|Decimais MC’s|Rua da Perfeição|
+|John Dollar|Journey of Eternity|
+|MC Arianne|Sorriso Fantástico|
 
 
 Por fim, seu aplicativo terá uma identidade visual única! Você pode encontrar as telas e assets para iOS e Android aqui.
