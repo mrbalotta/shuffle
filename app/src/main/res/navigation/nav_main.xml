@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/nav_main" app:startDestination="@id/splashFragment">
+
+    <fragment android:id="@+id/splashFragment"
+              android:name="br.com.thoughtworks.feature.splash.view.SplashFragment"
+              android:label="SplashFragment">
+        <action android:id="@+id/action_splash_to_playlist"
+                app:destination="@id/playlistFragment"
+        />
+    </fragment>
+
+    <fragment android:id="@+id/playlistFragment"
+              android:name="br.com.thoughtworks.feature.playlist.view.ui.PlaylistFragment"
+              android:label="PlaylistFragment"/>
+    <fragment android:id="@+id/offlineFragment" android:name="br.com.thoughtworks.feature.offline.view.OfflineFragment"
+              android:label="OfflineFragment">
+        <action android:id="@+id/action_offline_to_playlist" app:destination="@id/playlistFragment"
+                app:popUpToInclusive="true" app:launchSingleTop="true"/>
+    </fragment>
+    <action android:id="@+id/action_global_offline" app:destination="@id/offlineFragment"/>
+</navigation>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:width="@dimen/image_normal_width">
+        <shape android:shape="rectangle">
+            <corners android:radius="@dimen/radius_smallest"/>
+            <stroke android:color="@color/sunglo" android:width="1dp"/>
+        </shape>
+    </item>
+
+    <item android:top="@dimen/margin_normal"
+          android:bottom="@dimen/margin_normal"
+          android:right="@dimen/margin_normal"
+          android:left="@dimen/margin_normal">
+        <bitmap
+                android:gravity="fill"
+                android:src="@drawable/ic_shuffle"/>
+    </item>
+</layer-list>

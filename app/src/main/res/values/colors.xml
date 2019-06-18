@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#462e3e</color>
+    <color name="colorPrimaryDark">#382431</color>
+    <color name="colorAccent">@color/bonjour</color>
+
+    <color name="bonjour">#e4dde0</color>
+    <color name="matterhorn">#483b48</color>
+    <color name="sunglo">#dc6875</color>
+    <color name="chestnut_rose">#c75d69</color>
+    <color name="thunder">#372637</color>
+    <color name="woody_brown">#462c3d</color>
+    <color name="cosmic">#784050</color>
+</resources>

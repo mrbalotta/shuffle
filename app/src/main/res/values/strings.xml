@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Shuffle Songs</string>
+    <string name="shuffle">shuffle</string>
+    <string name="songs">songs</string>
+    <string name="connection_unavailable">Ah, não! Estamos sem conexão :(</string>
+    <string name="no_connection_disclaimer">Não se preocupe! Conectaremos automaticamente assim que a Internet voltar</string>
+    <string name="ok">Ok</string>
+    <string name="refresh">Refresh</string>
+    <string name="http_error">Algo deu errado! Erro HTTP: %d</string>
+</resources>

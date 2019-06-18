@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="margin_small">8dp</dimen>
+    <dimen name="margin_normal">16dp</dimen>
+    <dimen name="highest_width">220dp</dimen>
+    <dimen name="higher_width">200dp</dimen>
+    <dimen name="image_normal_width">80dp</dimen>
+    <dimen name="image_normal_height">80dp</dimen>
+    <dimen name="item_title_size">20sp</dimen>
+    <dimen name="item_subtitle_size">14sp</dimen>
+    <dimen name="radius_smallest">5dp</dimen>
+    <dimen name="highest_text_size">30sp</dimen>
+    <dimen name="higher_margin">24dp</dimen>
+    <dimen name="highest_margin">32dp</dimen>
+    <dimen name="item_height">100dp</dimen>
+</resources>
